@@ -82,6 +82,7 @@ export default function AlgoDisplay() {
         </FlexWrap>
       </TabPanel>
     </div>
+    <div class="pb-3"></div>
     </>
   );
 }

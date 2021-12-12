@@ -125,8 +125,7 @@ export default function NavBar() {
         </Tabs>
       </AppBar>
     </div>
-    
-          <Render/>
+      <Render/>
     </>
   );
 }

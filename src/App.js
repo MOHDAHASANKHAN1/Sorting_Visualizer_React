@@ -21,7 +21,7 @@ export default function App() {
  <Navbarh/>
   <Routes>
 	<Route exact path="/" element={<><Home/></>}/>
-	<Route exact path="/visualize" element={<><NavBar/><Controller/><AlgoDisplay/><Footer/></>}/>
+	<Route exact path="/visualize" element={<><NavBar/><Controller/><AlgoDisplay/></>}/>
   </Routes>
 </BrowserRouter>
   );
