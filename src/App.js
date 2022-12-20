@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Controller from "./components/Controller";
 import AlgoDisplay from "./components/AlgoDisplay";
 import Home from "./components/Home";
-import Navbarh from "./components/Navbarh";
+//import Navbarh from "./components/Navbarh";
 
 const Container = styled.div`
   margin: 0 10px;
@@ -18,13 +18,13 @@ const Container = styled.div`
 export default function App() {
   return (
     <BrowserRouter>
-      <Navbarh />
       <Routes>
         <Route
           exact
           path="/"
           element={
             <>
+              <NavBar />
               <Controller />
               <AlgoDisplay />
             </>
