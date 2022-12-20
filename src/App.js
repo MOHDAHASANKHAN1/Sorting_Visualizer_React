@@ -25,7 +25,6 @@ export default function App() {
           path="/"
           element={
             <>
-              <NavBar />
               <Controller />
               <AlgoDisplay />
             </>
